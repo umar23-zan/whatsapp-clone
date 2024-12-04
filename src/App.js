@@ -1,9 +1,10 @@
+import React from "react";
+import WhatsappUI from './components/WhatsappUI'
+
 function App() {
   return (
     <div className="App">
-      <header className="text-3xl font-black underline">
-        Hello world!
-      </header>
+      <WhatsappUI/>
     </div>
   );
 }
